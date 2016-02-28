@@ -1,0 +1,1 @@
+hadoop fs -du  | sort -nr | awk '/^[0-9]+/ { print int(/(1024**3))  GBtt  }'
